@@ -356,7 +356,8 @@ var SparklinesBars = function (_React$Component) {
                 onMouseMove = _props.onMouseMove;
 
             var strokeWidth = 1 * (style && style.strokeWidth || 0);
-            var width = barWidth || (points && points.length >= 2 ? Math.max(0, points[1].x - points[0].x - strokeWidth) : 0);
+            var marginWidth = margin ? 2 * margin : 0;
+            var width = barWidth || (points && points.length >= 2 ? Math.max(0, points[1].x - points[0].x - strokeWidth - marginWidth) : 0);
 
             return _react2.default.createElement(
                 'g',
@@ -383,6 +384,7 @@ SparklinesBars.propTypes = {
     height: _react2.default.PropTypes.number,
     style: _react2.default.PropTypes.object,
     barWidth: _react2.default.PropTypes.number,
+    margin: _react2.default.PropTypes.number,
     onMouseMove: _react2.default.PropTypes.func
 };
 SparklinesBars.defaultProps = {
