@@ -54,9 +54,9 @@ export default class SparklinesLine extends React.Component {
 
         return (
             <g>
-                {tooltips}
                 <polyline points={fillPoints.join(' ')} style={fillStyle}/>
                 <polyline points={linePoints.join(' ')} style={lineStyle}/>
+                {tooltips}
             </g>
         )
     }

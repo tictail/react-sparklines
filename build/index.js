@@ -597,9 +597,9 @@ var SparklinesLine = function (_React$Component) {
             return _react2.default.createElement(
                 'g',
                 null,
-                tooltips,
                 _react2.default.createElement('polyline', { points: fillPoints.join(' '), style: fillStyle }),
-                _react2.default.createElement('polyline', { points: linePoints.join(' '), style: lineStyle })
+                _react2.default.createElement('polyline', { points: linePoints.join(' '), style: lineStyle }),
+                tooltips
             );
         }
     }]);
