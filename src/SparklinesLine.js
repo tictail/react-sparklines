@@ -47,8 +47,6 @@ export default class SparklinesLine extends React.Component {
             cy={p.y}
             r={2}
             style={fillStyle}
-            onMouseEnter={(e) => onMouseMove('enter', data[i], p)}
-            onClick={(e) => onMouseMove('click', data[i], p)}
           />)
         });
 
