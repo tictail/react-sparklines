@@ -45,6 +45,7 @@ export default class SparklinesLine extends React.Component {
           return (<circle
             cx={p.x}
             cy={p.y}
+            key={i}
             r={2}
             style={fillStyle}
           />)
