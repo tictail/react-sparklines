@@ -583,14 +583,9 @@ var SparklinesLine = function (_React$Component) {
                 return _react2.default.createElement('circle', {
                     cx: p.x,
                     cy: p.y,
+                    key: i,
                     r: 2,
-                    style: fillStyle,
-                    onMouseEnter: function onMouseEnter(e) {
-                        return onMouseMove('enter', data[i], p);
-                    },
-                    onClick: function onClick(e) {
-                        return onMouseMove('click', data[i], p);
-                    }
+                    style: fillStyle
                 });
             });
 
