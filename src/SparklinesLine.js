@@ -53,8 +53,8 @@ export default class SparklinesLine extends React.Component {
 
         return (
             <g>
-                <polyline points={fillPoints.join(' ')} style={fillStyle} vector-effect="non-scaling-stroke"/>
-                <polyline points={linePoints.join(' ')} style={lineStyle} vector-effect="non-scaling-stroke"/>
+                <polyline points={fillPoints.join(' ')} style={fillStyle} vectorEffect="non-scaling-stroke"/>
+                <polyline points={linePoints.join(' ')} style={lineStyle} vectorEffect="non-scaling-stroke"/>
                 {tooltips}
             </g>
         )
