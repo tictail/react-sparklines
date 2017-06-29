@@ -585,7 +585,8 @@ var SparklinesLine = function (_React$Component) {
                     cy: p.y,
                     key: i,
                     r: 2,
-                    style: fillStyle
+                    style: fillStyle,
+                    vectorEffect: 'non-scaling-stroke'
                 });
             });
 

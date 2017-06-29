@@ -48,6 +48,7 @@ export default class SparklinesLine extends React.Component {
             key={i}
             r={2}
             style={fillStyle}
+            vectorEffect="non-scaling-stroke"
           />)
         });
 
