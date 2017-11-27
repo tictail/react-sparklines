@@ -1,6 +1,6 @@
 {
   "name": "react-sparklines",
-  "version": "1.9.3",
+  "version": "1.10.0",
   "description": "Beautiful and expressive Sparklines component for React ",
   "main": "build/index.js",
   "directories": {
@@ -60,6 +60,7 @@
     "react-dom": "*"
   },
   "dependencies": {
+    "prop-types": "~15.5.10",
     "react-addons-shallow-compare": "^15.0.2"
   }
 }
