@@ -1,12 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class SparklinesText extends React.Component {
 
     static propTypes = {
-      text: React.PropTypes.string,
-      point: React.PropTypes.object,
-      fontSize: React.PropTypes.number,
-      fontFamily: React.PropTypes.string
+      text: PropTypes.string,
+      point: PropTypes.object,
+      fontSize: PropTypes.number,
+      fontFamily: PropTypes.string
     };
 
     static defaultProps = {

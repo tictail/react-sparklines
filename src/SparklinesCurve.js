@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class SparklinesCurve extends React.Component {
 
     static propTypes = {
-        color: React.PropTypes.string,
-        style: React.PropTypes.object
+        color: PropTypes.string,
+        style: PropTypes.object
     };
 
     static defaultProps = {

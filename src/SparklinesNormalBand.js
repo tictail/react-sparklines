@@ -1,11 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import mean from './dataProcessing/mean';
 import stdev from './dataProcessing/stdev';
 
 export default class SparklinesNormalBand extends React.Component {
 
     static propTypes = {
-        style: React.PropTypes.object
+        style: PropTypes.object
     };
 
     static defaultProps = {
